@@ -38,6 +38,13 @@ python -m venv env
 source venv/Scripts/activate
 ```
 
+Создайте файл .env и заполните его своими данными:
+
+
+```bash
+    SECRET_KEY='secret_key'                 #Секретный ключ приложения Django, используемый для шифрования данных и безопасности. 
+```
+
 Установить зависимости из файла requirements.txt:
 
 
